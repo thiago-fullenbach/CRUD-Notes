@@ -1,0 +1,12 @@
+.toolbar {
+    display: flex;
+}
+
+.title {
+    flex-grow: 10;
+}
+
+.title *, .add * {
+    vertical-align: middle;
+    margin-right: 15px;
+}
