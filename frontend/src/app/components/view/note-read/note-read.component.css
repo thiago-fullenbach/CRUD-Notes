@@ -1,3 +1,11 @@
+.welcome-card {
+    margin-bottom: 25px;
+}
+
+.welcome-card .title {
+    margin: 15px 0 25px 0;
+}
+
 .notes-title {
     color: #aaa;
     border-bottom: 2px solid #aaa;
@@ -19,6 +27,7 @@
 .note {
     width: 300px;
     margin-bottom: 25px;
+    margin-right: 25px;
 }
 
 .note > .msg {
@@ -33,4 +42,8 @@
 .actions {
     margin-top: 5px;
     display: flex;
+}
+
+.actions button {
+    padding: auto 2px;
 }

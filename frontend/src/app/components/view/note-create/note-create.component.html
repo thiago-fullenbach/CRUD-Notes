@@ -1,1 +1,23 @@
-<p>note-create works!</p>
+<mat-card>
+    <mat-card-title>Nova Anotação</mat-card-title>
+    <mat-card-content class="note-form">
+        <mat-form-field appearance="fill">
+            <mat-label>Título da Anotação</mat-label>
+            <input matInput [(ngModel)]="newNote.title">
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Anotação</mat-label>
+            <textarea matInput rows="5" [(ngModel)]="newNote.note"></textarea>
+        </mat-form-field>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-raised-button color="primary"
+            (click)="createNote()">
+            Salvar
+        </button>
+        <button mat-raised-button
+            (click)="cancel()">
+            Cancelar
+        </button>
+    </mat-card-actions>
+</mat-card>
