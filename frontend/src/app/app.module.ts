@@ -17,6 +17,8 @@ import { NoteCreateComponent } from './components/view/note-create/note-create.c
 import { NoteUpdateComponent } from './components/view/note-update/note-update.component';
 import { NoteDeleteComponent } from './components/view/note-delete/note-delete.component';
 
+import { HttpClientModule } from '@angular/common/http'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +36,8 @@ import { NoteDeleteComponent } from './components/view/note-delete/note-delete.c
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

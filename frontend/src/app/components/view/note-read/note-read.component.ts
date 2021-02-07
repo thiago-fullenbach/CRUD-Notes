@@ -1,3 +1,5 @@
+import { Note } from './../notes.model';
+import { NotesService } from './../notes.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NoteReadComponent implements OnInit {
 
-  constructor() { }
+  notes: Note[];
+
+  constructor(private noteService: NotesService) { }
 
   ngOnInit(): void {
+    this.noteService.read().subscribe(notes => {
+      this.notes = notes;
+    })
   }
 
 }

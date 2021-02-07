@@ -1,6 +1,13 @@
+.notes-title {
+    color: #aaa;
+    border-bottom: 2px solid #aaa;
+    padding-bottom: 15px;
+    margin: 45px 0 45px 0 ;
+}
+
 .notes {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 
