@@ -16,9 +16,3 @@
     padding-bottom: 15px;
     margin: 45px 0 45px 0 ;
 }
-
-.saved-notes {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}

@@ -1,0 +1,24 @@
+.notes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.note {
+    width: 300px;
+    margin-bottom: 25px;
+}
+
+.note > .msg {
+    margin: 25px 0 25px 0;
+}
+
+.note > .msg > p {
+    height: 50px;
+    overflow: hidden;
+}
+
+.actions {
+    margin-top: 5px;
+    display: flex;
+}
