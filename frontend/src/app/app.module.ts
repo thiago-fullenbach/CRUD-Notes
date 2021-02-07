@@ -12,13 +12,15 @@ import { MatCardModule } from '@angular/material/card';
 import { HeaderComponent } from './components/templates/header/header.component';
 import { FooterComponent } from './components/templates/footer/footer.component';
 import { MainComponent } from './components/view/main/main.component';
+import { NoteComponent } from './components/templates/note/note.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    MainComponent
+    MainComponent,
+    NoteComponent
   ],
   imports: [
     BrowserModule,
