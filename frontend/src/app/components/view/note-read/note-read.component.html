@@ -1,5 +1,6 @@
 <h1 class="notes-title">Anotações Salvas</h1>
-<div class="notes">
+<h2 *ngIf="!notes?.length" class="no-notes">Não existem anotações :(</h2>
+<div *ngIf="notes?.length" class="notes">
     <mat-card *ngFor="let note of notes"  class="note">
         <mat-card-header class="note-title">
             <mat-card-title>{{ note.title }}</mat-card-title>

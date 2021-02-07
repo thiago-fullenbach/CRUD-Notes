@@ -5,6 +5,11 @@
     margin: 45px 0 45px 0 ;
 }
 
+.no-notes {
+    text-align: center;
+    color: #aaa;
+}
+
 .notes {
     display: flex;
     justify-content: flex-start;
