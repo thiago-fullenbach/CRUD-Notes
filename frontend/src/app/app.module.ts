@@ -13,6 +13,10 @@ import { HeaderComponent } from './components/templates/header/header.component'
 import { FooterComponent } from './components/templates/footer/footer.component';
 import { MainComponent } from './components/view/main/main.component';
 import { NoteComponent } from './components/templates/note/note.component';
+import { NoteReadComponent } from './components/view/note-read/note-read.component';
+import { NoteCreateComponent } from './components/view/note-create/note-create.component';
+import { NoteUpdateComponent } from './components/view/note-update/note-update.component';
+import { NoteDeleteComponent } from './components/view/note-delete/note-delete.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { NoteComponent } from './components/templates/note/note.component';
     HeaderComponent,
     FooterComponent,
     MainComponent,
-    NoteComponent
+    NoteComponent,
+    NoteReadComponent,
+    NoteCreateComponent,
+    NoteUpdateComponent,
+    NoteDeleteComponent
   ],
   imports: [
     BrowserModule,
