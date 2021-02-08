@@ -16,7 +16,7 @@
             <p>{{ note.note }}</p>
         </mat-card-content>
         <mat-card-actions class="actions">
-            <button mat-button>
+            <button mat-button routerLink="/notes/read-more/{{ note.id }}">
                 LER
             </button>
             <button mat-button routerLink="/notes/update/{{ note.id }}">
