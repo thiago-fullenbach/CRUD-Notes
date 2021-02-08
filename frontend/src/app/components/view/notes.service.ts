@@ -12,6 +12,7 @@ export class NotesService {
 
   baseUrl = 'http://localhost:3001/notes';
 
+
   constructor(
     private http: HttpClient,
     private snackBar: MatSnackBar,
@@ -29,7 +30,17 @@ export class NotesService {
     return this.http.get<Note[]>(this.baseUrl);
   }
 
+  readById(id: string): Observable<Note> {
+    const url = `${this.baseUrl}/${id}`;
+    return this.http.get<Note>(url);
+  }
+
   create(note: Note): Observable<Note> {
     return this.http.post<Note>(this.baseUrl, note);
+  }
+
+  update(note: Note): Observable<Note> {
+    const url = `${this.baseUrl}/${note.id}`;
+    return this.http.put<Note>(url, note);
   }
 }
