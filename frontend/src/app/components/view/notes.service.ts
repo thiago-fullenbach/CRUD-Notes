@@ -43,4 +43,9 @@ export class NotesService {
     const url = `${this.baseUrl}/${note.id}`;
     return this.http.put<Note>(url, note);
   }
+
+  delete(id: number): Observable<Note> {
+    const url = `${this.baseUrl}/${id}`
+    return this.http.delete<Note>(url);
+  }
 }
