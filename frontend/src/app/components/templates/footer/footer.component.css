@@ -1,7 +1,7 @@
 .footer {
     display: flex;
     justify-content: flex-end;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     color: #aaa;
     font-weight: 300;
