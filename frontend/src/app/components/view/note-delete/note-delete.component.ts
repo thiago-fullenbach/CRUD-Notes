@@ -25,10 +25,8 @@ export class NoteDeleteComponent implements OnInit {
 
   ngOnInit(): void {
     const id = this.route.snapshot.paramMap.get('id');
-    console.log(id);
     this.notesService.readById(id).subscribe(note => {
       this.note = note;
-      console.log(this.note)
     })
   }
 

@@ -10,7 +10,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NoteUpdateComponent implements OnInit {
 
-  note: Note;
+  note: Note = {
+    title: '',
+    note: '',
+    date: ''
+  };
 
   constructor(
     private notesService: NotesService,
