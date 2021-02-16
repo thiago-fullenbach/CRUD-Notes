@@ -1,10 +1,16 @@
 {
   "notes": [
     {
-      "title": "Minha Primeira Anotação",
-      "note": "Esta é sua primeira anotação no aplicativo!!",
-      "date": "08/02/2021 08:49:00",
+      "title": "Sistemas Operacionais 1 - Aula 1",
+      "note": "2 Provas - 80% da média\nEstudos de Caso e exercícios em classe - 20%\n\nM = ((P1 * 0,4) + (P2  * 0,4)  + (En * 0,2)) / 10\n\nP1 - Revisão da arquitetura de computadores e Evolução da eficiência e introdução dos sistemas operacionais\nP2 - Gerenciamento do Processador, Memória e Periféricos\n\nQ: Um programa compilado precisa do sistema operacional para executar, por exemplo, uma soma\nA: Não, um programa precisa do SO apenas para algumas ações, porém tem autonomia para realizar funções simples\n\nQ: Quando uma aplicação precisa do SO?\nA: Quando a aplicação precisa de algum periférico, por exemplo, este deve fazer uma requisição para o SO (interrupção)\n\nSO tem autoridade para acessar os periféricos, ao contrário de uma aplicação (porém, ambos são software - conjunto de instruções)\n\nQ: Para que serve o SO?\nA: Gerencia recursos de hardware (processador, memória e periféricos) para todas as aplicações rodando no computador.\n\nQ: O que é uma aplicação?\nA: Um software, como o SO, porém sem autoridade sobre os recursos de hardware, incapaz de fazer leitura sem o SO.\n\nQ: Quais os grandes módulos de um SO?\nA: Kernel (Gerenciador do processador), Shell, Gerenciadores de memória, usuário etc...\n\nQ: O futuro dos SO?\nA: Depende do tipo de aparelho (grande  ou pequeno porte, móvel ou fixo etc...)\n\nFunções do Sistema Operacional\n\n- Facilitar o uso (Interface entre usuário e maquina, estender funções do hardware, tornar independente as aplicações do hardware utilizado  e simplificar a atividade de programação: alto nível)\n\n- Gerenciar os recursos: Procura eficiência (permitir compartilhamento: aplicações dividem recursos; coordenar a execução das tarefas: ordem de execução das tarefas; Otimizar o desempenho das aplicações)\n\nVantagens do Sistema Operacional\n\n- Tornar o uso do sistema mais simples e flexível possível\n- Garantir controle e a eficiência no uso de recursos\n- Permitir compartilhamento e protegido do ambiente aos usuários, compreendido pelo diversos recursos de hardware e software\n\n",
+      "date": "08/02/2021 19:19:19",
       "id": 1
+    },
+    {
+      "title": "Sistemas Operacionais 1 - Aula 2",
+      "note": "Tendências\n\n- Hardware: Menor custo, aumento de capacidade, miniaturização, comoditização e integração;\n- Software: Aumento de funcionalidades, facilidade de uso, menor custo (SaaS, Cloud, Open Architecture)\n- Redes de Dados: Velocidade e abrangência cada vez maiores, comunicação e infraestrutura pública, meio de integração do mercado, segurança da info\n- Uso Intenso de TI: Principal meio de integração e comunicação, Ampliação da digitalização, maior complexidade de tecnologias e componentes, dificuldade crescente na sua gestão e governança de TI",
+      "date": "08/02/2021 21:36:13",
+      "id": 2
     }
   ]
 }

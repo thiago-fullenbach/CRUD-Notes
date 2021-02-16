@@ -1,3 +1,4 @@
 .msg {
     margin: 25px 16px;
+    white-space: pre-wrap;
 }

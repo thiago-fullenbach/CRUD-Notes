@@ -3,3 +3,7 @@
     flex-direction: column;
     margin-top: 25px;
 }
+
+textarea {
+    white-space: pre-wrap;
+}
